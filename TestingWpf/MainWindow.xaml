@@ -1,0 +1,24 @@
+﻿<Window x:Class="TestingWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestingWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="348" Width="688"
+        Background="#E0E0E0">
+    <!-- Set the background color to grey -->
+
+    <Grid Margin="124,0,114,32">
+        <TextBox HorizontalAlignment="Center" Name="NameBox" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="150"
+                 Background="#F5F5F5" BorderBrush="#BDBDBD" BorderThickness="1"/>
+        <!-- Set TextBox background to light grey and add border -->
+        <Button Content="Send" HorizontalAlignment="Left" Height="29" Margin="178,183,0,0" VerticalAlignment="Top" Width="78" Click="Button_Click"
+                Background="#607D8B" Foreground="White"/>
+        <!-- Set Button background to a darker grey and text color to white -->
+        <TextBlock HorizontalAlignment="Center" Height="25" Margin="0,90,0,0" TextWrapping="Wrap" Text="What is your name" VerticalAlignment="Top" Width="136"
+                   Foreground="#757575"/>
+        <!-- Set TextBlock color to a slightly darker grey -->
+
+    </Grid>
+</Window>
